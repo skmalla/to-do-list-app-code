@@ -1,0 +1,40 @@
+span button {
+  position: absolute;
+  right: 10px;
+  color: rgb(11, 211, 11);
+  border: 0;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: blueviolet;
+}
+
+
+
+span button:hover {
+  background-color: rgb(90, 182, 90);
+  color: blueviolet;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.form-group input {
+  border: 0;
+  padding: 2px;
+  width: 85%;
+  height: 44px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: rgb(146, 84, 115);
+}
+
+.form-group input::placeholder {
+  color: rgb(159, 187, 211);
+}
+
+.form-group input:focus,
+span button:focus {
+  outline: none;
+}
